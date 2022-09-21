@@ -1,0 +1,187 @@
+/***
+
+====================================================================
+		next-date Section
+====================================================================
+
+***/
+
+.next-date-section{
+	position: relative;
+	padding: 110px 0 80px;
+	overflow: hidden;
+}
+
+.next-date-section.alternate{
+	padding: 120px 0;
+}
+
+.next-date-section .styled-pagination{
+	margin-top: 30px;
+}
+
+.next-date-block{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.next-date-block .inner-box{
+	position: relative;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.10);
+}
+
+.next-date-block .image-box{
+	position: relative;
+}
+
+.next-date-block .image{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+.next-date-block .image-box .image a:after{
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+.next-date-block .inner-box:hover .image-box .image a:after {
+  opacity: 1;
+  top: -20%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: linear;
+}
+
+.next-date-block .image img{
+	display: block;
+	width: 100%;
+}
+
+.next-date-block .lower-content{
+	position: relative;
+	padding: 20px 30px 30px;
+}
+
+.next-date-block .post-info{
+	position: relative;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.next-date-block .post-info li{
+	position: relative;
+	font-size: 14px;
+	line-height: 24px;
+	color: #777777;
+	font-weight: 400;
+	margin-right: 25px;
+	display: flex;
+	gap:5px;
+	align-items: center;
+}
+
+.next-date-block .post-info li img{
+	width: 18px;
+}
+
+.next-date-block h4{
+	position: relative;
+	display: block;
+	font-size: 22px;
+	line-height: 1.4em;
+	color: #222222;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.next-date-block h4 a{
+	color: #222222;
+	display: inline-block;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.next-date-block h4 a:hover{
+	color: var(--green-light);
+}
+
+.next-date-block .text{
+	position: relative;
+	font-size: 14px;
+	line-height: 27px;
+	color: #888888;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.next-date-block .btn-box{
+	position: relative;
+}
+
+.next-date-block .btn-box a{
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--white-link);
+	padding: 4px 15px;
+	background-color: var(--green-light);
+	border-radius: 10px;
+	border:1px solid var(--green-light);
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.next-date-block .btn-box a:hover{
+	background:none;
+	color:var(--green-dark);
+	border-color:var(--green-dark);
+}
+
+.next-date-section .icon-circle-blue{
+	right: -305px;
+	bottom: -120px;
+	opacity: .70;
+	-webkit-animation: fa-spin 10s infinite;
+	-moz-animation: fa-spin 10s infinite;
+	-ms-animation: fa-spin 10s infinite;
+	-o-animation: fa-spin 10s infinite;
+	animation: fa-spin 10s infinite;
+}
+
+.next-date-section .twist-line-1{
+	left: -110px;
+    top: 290px;
+}
+
+.next-date-section .twist-line-2{
+	left: -10%;
+    top: 80px;
+}
+
+.next-date-section .twist-line-3{
+	left: 90px;
+    top: 50px;
+}

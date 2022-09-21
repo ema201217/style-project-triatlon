@@ -1,0 +1,167 @@
+/***
+
+====================================================================
+	athlete-for-athlete Section
+====================================================================
+
+***/
+
+.athlete-for-athlete-section{
+	position: relative;
+	padding: 120px 0 100px;
+}
+
+.athlete-for-athlete-section .title-block{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.athlete-for-athlete-section .title-block .inner-box{
+	padding: 50px 30px 0;
+	background-color:#ffffff;
+}
+
+.athlete-for-athlete-section .title-block .sec-title{
+	margin-bottom: 0;
+}
+
+.athlete-for-athlete-section .title-block .sec-title .title{
+	margin-bottom: 5px;
+}
+
+.athlete-for-athlete-block{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.athlete-for-athlete-block .inner-box{
+	position: relative;
+	padding: 40px 30px;
+	padding-left: 100px;
+	background-color:#ffffff;
+	border: 1px solid #eeeeee;
+	box-shadow: 0 30px 40px rgba(0,0,0,0.10);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	overflow: hidden;
+}
+
+.athlete-for-athlete-block .inner-box:hover{
+	box-shadow: none;
+}
+
+.athlete-for-athlete-block .icon-box{
+	position: absolute;
+	left: 30px;
+	top: 50px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.athlete-for-athlete-block .icon-box .icon{
+	position: relative;
+	display: inline-block;
+	font-size: 50px;
+	line-height: 1em;
+	background: rgb(247,0,104);
+	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
+	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
+  	background: none;
+  	color: #f14b59;
+  	-webkit-transition: all 400ms ease;
+  	-moz-transition: all 400ms ease;
+  	-ms-transition: all 400ms ease;
+  	-o-transition: all 400ms ease;
+  	transition: all 400ms ease;
+}
+
+.athlete-for-athlete-block .inner-box:hover .icon-box .icon{
+	-webkit-transform: scale(-1) rotate(180deg);
+	-moz-transform: scale(-1) rotate(180deg);
+	-ms-transform: scale(-1) rotate(180deg);
+	-o-transform: scale(-1) rotate(180deg);
+	transform: scale(-1) rotate(180deg);
+}
+
+.athlete-for-athlete-block h4{
+	position: relative;
+	display: block;
+	font-size: 22px;
+	line-height: 1.2em;
+	color: #12114a;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.athlete-for-athlete-block h4 a{
+	color: #12114a;
+	display: inline-block;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.athlete-for-athlete-block h4 a:hover{
+	color: #f14b59;
+}
+
+.athlete-for-athlete-block .text{
+	position: relative;
+	display: block;
+	font-size: 15px;
+	line-height: 24px;
+	color: #888888;
+	font-weight: 400;
+	cursor: default;
+}
+
+.athlete-for-athlete-block .link-box{
+	position: relative;
+	display: block;
+}
+
+.athlete-for-athlete-block .link-box a{
+	padding: 10px 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.athlete-for-athlete-section .twist-line-1{
+	left: -110px;
+    top: 290px;
+}
+
+.athlete-for-athlete-section .twist-line-2{
+	left: -10%;
+    top: 80px;
+}
+
+.athlete-for-athlete-section .twist-line-3{
+	left: 90px;
+    top: 50px;
+}
+
+.twist-line-1{
+	height: 70px;
+	width: 80px;
+	background-image: url(../images/icons/twist-line-1.png);
+}
+
+.twist-line-2{
+	height: 73px;
+	width: 70px;
+	background-image: url(../images/icons/twist-line-2.png);
+}
+
+.twist-line-3{
+	height: 73px;
+	width: 70px;
+	background-image: url(../images/icons/twist-line-3.png);
+}

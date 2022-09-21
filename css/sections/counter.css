@@ -1,0 +1,135 @@
+/***
+
+====================================================================
+		Counter Section
+====================================================================
+
+***/
+
+.counter-section{
+	position: relative;
+	padding: 100px 0 50px;
+}
+
+.counter-section:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/icons/pattern-1.jpg);
+	content: "";
+	opacity: .10;
+}
+
+.counter-section .count-counter{
+	position: relative;
+}
+
+.counter-section .counter-column{
+	position:relative;
+	text-align: center;
+	margin-bottom:50px;
+}
+
+.counter-section .count-box{
+	position: relative;
+	font-size:80px;
+	line-height: 1em;
+	color:#222222;
+	font-weight:700;
+}
+
+.counter-section .count-box .icon{
+	position: relative;
+	display: inline-block;
+	font-size:60px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	height: 120px;
+	width: 120px;
+	line-height: 120px;
+	border-radius: 50%;
+	font-weight: 400;
+	-webkit-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	transition:all 600ms ease;
+	background-color: #222222;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.10);
+}
+
+.counter-section .count-box:hover .icon{
+	transform:rotateY(360deg);
+}
+
+.counter-section .count-box .count-text{
+	position:relative;
+	display: block;
+	font-size:60px;
+	line-height: 1em;
+	color:#15212f;
+	text-shadow: 10px 10px 10px rgba(0,0,0,0.10);
+	font-weight:600;
+	margin-bottom: 10px;
+}
+
+.counter-section .count-box .counter-title{
+	position: relative;
+	display: block;
+	font-size:18px;
+	line-height:22px;
+	font-weight:700;
+	color:#222222;
+}
+
+.counter-section .counter-column:nth-child(4n + 1) .count-box .icon{
+	background-color: #ffc20b;
+}
+
+.counter-section .counter-column:nth-child(4n + 2) .count-box .icon{
+	background-color: #40cbb4;
+}
+
+.counter-section .counter-column:nth-child(4n + 3) .count-box .icon{
+	background-color: #4c35a9;
+}
+
+.counter-section .counter-column:nth-child(4n + 4) .count-box .icon{
+	background-color: #e6275a;
+}
+
+.counter-section .counter-column:nth-child(4n + 1) .counter-title{
+	color: #ffc20b;
+}
+
+.counter-section .counter-column:nth-child(4n + 2) .counter-title{
+	color: #40cbb4;
+}
+
+.counter-section .counter-column:nth-child(4n + 3) .counter-title{
+	color: #4c35a9;
+}
+
+.counter-section .counter-column:nth-child(4n + 4) .counter-title{
+	color: #e6275a;
+}
+
+.counter-section.style-two{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.counter-section.style-two:before{
+	background: #1c94d2;
+	opacity: 0;
+}
+
+.counter-section.style-two .count-box .count-text{
+	color: #ffffff;
+}

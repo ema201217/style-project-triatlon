@@ -1,0 +1,47 @@
+/* FONT FAMILY Y WEIGHT */
+
+/* FONT Montserrat */
+.montserrat-Regular {
+  	font-family: var(--Montserrat);
+	font-weight:var(--Regular);
+}
+
+.montserrat-Medium {
+  	font-family: var(--Montserrat);
+	font-weight:var(--Medium);
+}
+
+.montserrat-Bold {
+  	font-family: var(--Montserrat);
+	font-weight:var(--Bold);
+}
+
+.montserrat-SemiBold {
+  	font-family: var(--Montserrat);
+	font-weight:var(--SemiBold);
+}
+
+.montserrat-ExtraBold {
+  	font-family: var(--Montserrat);
+	font-weight:var(--ExtraBold);
+}
+
+.montserrat-ExtraBlackExtender {
+  	font-family: var(--Montserrat);
+	font-weight:var(--ExtraBlack);
+}
+
+
+/* FONT NeuePlak */
+.neuePlak-SemiBold {
+  font-family: var(--NeuePlak);
+font-weight:var(--SemiBold);
+}
+.neuePlak-ExtraBlack {
+  font-family: var(--NeuePlak);
+font-weight:var(--ExtraBold);
+}
+.neuePlak-ExtraBlackExtender {
+  font-family: var(--NeuePlak);
+font-weight:var(--ExtraBlackExtender);
+}
