@@ -1,3 +1,6 @@
+
+
+
 /***
 
 ====================================================================
@@ -15,7 +18,7 @@
 
 .contact-section img.img-background {
 	position: absolute;
-	width: 10%;
+	width: 200px;
 }
 
 /* @media (max-width:768px) {
@@ -32,7 +35,7 @@
 .contact-section img.img-background:nth-child(2) {
 	bottom: 0;
 	left: 5%;
-	width: 15%;
+	width: 200px;
 	margin-bottom: 20px;
 }
 
@@ -181,3 +184,30 @@
 	right: 5%;
 	top: 0%;
 }
+
+/* other class */
+
+/* INVALID */
+input.border-danger.invalid-feedback,textarea.border-danger.invalid-feedback {
+	border-color: var(--purple) !important;
+	border-width: 2px !important;
+}
+
+label.border-danger.invalid-feedback {
+	font-family: var(--Montserrat) !important;
+	color: var(--purple);
+}
+
+
+/* VALID */
+input.border-success,textarea.border-success {
+	border-color: var(--green-light) !important;
+	border-width: 2px !important;
+	color: var(--green-dark) !important;
+}
+
+label.border-success {
+	font-family: var(--Montserrat) !important;
+	color: var(--green-light);
+}
+

@@ -14,7 +14,7 @@
 .athlete-for-athlete-section img.img-background {
 	position: absolute;
 	bottom: 0;
-	width: 150px;
+	width: 200px;
 }
 
 .athlete-for-athlete-section img.img-background:nth-child(1) {
@@ -35,13 +35,6 @@
 .athlete-for-athlete-section img.img-background:nth-child(4) {
 	top: 0;
 	right: 0;
-}
-
-@media (max-width:500px) {
-	.athlete-for-athlete-section img.img-background {
-		width: 70px;
-	}
-
 }
 
 

@@ -1,5 +1,6 @@
-const errorContainer = "#fullname-error, #email-error, #message-error";
-const errorClass = "text-danger";
+const errorContainer = "validate";
+const errorClass = "border-danger invalid-feedback";  
+const validClass = "border-success"
 const rules = {
   fullname: {
     required: true,
@@ -11,29 +12,35 @@ const rules = {
     email: true,
   },
   phone: {
+    required: true,
     number:true,
     minlength:6,
     maxlength:13
   },
   message: {
     required: true,
+    minlength:20
   },
 };
 const messages = {
   fullname: {
-      required:"El nombre completo es requerido",
-      minlength: jQuery.validator.format("Ingrese su nombre completo"),
-      maxlength:jQuery.validator.format("Se supero los 40 caracteres")
+      required:"Nombre Completo requerido",
+      minLength: jQuery.validator.format("Nombre Completo invalido"),
+      maxlength:jQuery.validator.format("Nombre Completo invalido")
   },
   email: {
-    required: "El email es requerido",
-    email: "Ingrese un email valido",
+    required: "Email requerido",
+    email: "Email invalido",
   },
-  message: "Ingrese un mensaje",
   phone: {
-      number:"Ingrese un teléfono valido",
-      minlength: jQuery.validator.format("Ingrese un teléfono valido"),
-      maxlength:jQuery.validator.format("Ingrese un teléfono valido"),
+      required:"Teléfono requerido",
+      number:"Teléfono invalido",
+      minLength: jQuery.validator.format("Longitud invalida"),
+      maxlength:jQuery.validator.format("Longitud invalida"),
+  },
+  message: {
+    required:"Mensaje requerido",
+    minlength: jQuery.validator.format("Longitud minima 20 caracteres"),
   }
 };
 const alerts = {
@@ -57,10 +64,11 @@ const alerts = {
 const options = {
     errorContainer,
     errorClass,
+    validClass,
     rules,
     messages,
     debug: true,
-    submitHandler: (form) => sendEmail(form, alerts), /* sendEmail ==> sendemail.js */
+    submitHandler: (form) => sendEmail(form, alerts),/* sendEmail ==> sendemail.js */
 };
 
 const elementsForm = $("#form")[0].elements

@@ -12,14 +12,8 @@
 	overflow: hidden;
 }
 .next-date-section img.img-background{
-	width: 15%;
+	width: 200px;
 	position:absolute; 
-}
-
-@media (max-width:768px) {
-	.next-date-section img.img-background{
-		width: 35%;
-	}
 }
 
 .next-date-section img.img-background:nth-child(1){
