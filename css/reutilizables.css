@@ -2,48 +2,48 @@
 
 /* FONT Montserrat */
 .montserrat-Regular {
-  	font-family: var(--Montserrat);
-	font-weight:var(--Regular);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--Regular) !important;
 }
 
 .montserrat-Medium {
-  	font-family: var(--Montserrat);
-	font-weight:var(--Medium);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--Medium) !important;
 }
 
 .montserrat-Bold {
-  	font-family: var(--Montserrat);
-	font-weight:var(--Bold);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--Bold) !important;
 }
 
 .montserrat-SemiBold {
-  	font-family: var(--Montserrat);
-	font-weight:var(--SemiBold);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--SemiBold) !important;
 }
 
 .montserrat-ExtraBold {
-  	font-family: var(--Montserrat);
-	font-weight:var(--ExtraBold);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--ExtraBold) !important;
 }
 
 .montserrat-ExtraBlackExtender {
-  	font-family: var(--Montserrat);
-	font-weight:var(--ExtraBlack);
+	font-family: var(--Montserrat) !important;
+	font-weight: var(--ExtraBlack) !important;
 }
 
 
 /* FONT NeuePlak */
 .neuePlak-SemiBold {
-  font-family: var(--NeuePlak);
-font-weight:var(--SemiBold);
+	font-family: var(--NeuePlak) !important;
+	font-weight: var(--SemiBold) !important;
 }
+
 .neuePlak-ExtraBlack {
-  font-family: var(--NeuePlak);
-font-weight:var(--ExtraBold);
+	font-family: var(--NeuePlak) !important;
+	font-weight: var(--ExtraBold) !important;
 }
+
 .neuePlak-ExtraBlackExtender {
-  font-family: var(--NeuePlak);
-font-weight:var(--ExtraBlackExtender);
+	font-family: var(--NeuePlak) !important;
+	font-weight: var(--ExtraBlackExtender) !important;
 }
-
-

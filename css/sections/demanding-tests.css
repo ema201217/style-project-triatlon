@@ -23,7 +23,7 @@
 	padding-right: 0;
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
 
 	.demanding-tests-section .image-column {
 		position: relative;

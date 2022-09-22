@@ -1,6 +1,13 @@
+
+/* ROWS - styles */
 .testimonial-section .owl-next, .testimonial-section .owl-prev {
 	background-color: var(--green-light) !important;
 }
+
+.testimonial-section .arrow_carrot-left, .testimonial-section .arrow_carrot-right{
+	font-weight: 900;
+}
+
 
 /***
 

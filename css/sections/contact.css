@@ -18,11 +18,11 @@
 	width: 10%;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
 	.contact-section img.img-background {
 		width: 30%;
 	}
-}
+} */
 
 .contact-section img.img-background:nth-child(1) {
 	top: 0;
