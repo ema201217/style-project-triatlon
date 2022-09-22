@@ -28,7 +28,7 @@
 	.demanding-tests-section .image-column {
 		position: relative;
 		left: 250px;
-		transform: scale(1.3) translate(-15%, -5%) !important;
+		transform: scale(1.3) translate(-15%, -10%) !important;
 	}
 
 }
