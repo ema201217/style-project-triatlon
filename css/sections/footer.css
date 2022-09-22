@@ -29,6 +29,7 @@
 
 .main-footer .footer-widget{
 	position:relative;
+	margin: 0 auto;
 }
 
 .main-footer .footer-column .widget-title{
@@ -47,7 +48,7 @@
 	bottom: 0;
 	height: 1px;
 	width: 40px;
-	background-color: #f70068;
+	background-color: var(--blue-light);
 	content: '';
 }
 
@@ -199,7 +200,6 @@
 
 .main-footer .contact-list li{
     position: relative;
-    padding-left:40px;
     margin-bottom: 25px;
 }
 
@@ -208,12 +208,10 @@
 }
 
 .main-footer .contact-list li .icon{
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 23px;
-    line-height: 25px;
-    color: #ffffff;
+ width: 30px;
+ height: 30px;
+ object-fit: contain;
+ margin-right: 10px;
 }
 
 .main-footer .contact-list li .text{
@@ -222,6 +220,7 @@
 	line-height: 24px;
 	color: #ffffff;
 	font-weight: 400;
+	margin-left: 20px !important;
 }
 
 .main-footer .contact-list li .text a{
@@ -365,7 +364,7 @@
 .main-footer .footer-bottom{
 	position: relative;
 	width: 100%;
-	background-color: #292929;
+	background-color: #111;
 	text-align: center;
 }
 
@@ -399,7 +398,7 @@
 }
 
 .main-footer .footer-bottom .copyright-text a:hover{
-	color: #f70068;
+	color: var(--green-light);
 }
 
 .main-footer .footer-bottom .footer-nav{
