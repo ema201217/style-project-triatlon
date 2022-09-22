@@ -1,3 +1,7 @@
+.testimonial-section .owl-next, .testimonial-section .owl-prev {
+	background-color: var(--green-light) !important;
+}
+
 /***
 
 ====================================================================
@@ -8,7 +12,7 @@
 
 .testimonial-section{
 	position: relative;
-	padding: 120px 0;
+	padding: 50px 0;
 	background-color: #fdfdfd;
 }
 
@@ -46,9 +50,8 @@
 .testimonial-block .icon{
 	position: relative;
 	display: inline-block;
-	font-size: 40px;
-	line-height: 80px;
-	width: 80px;
+	margin: 0 auto;
+	width: 80px !important;
 	height: 80px;
 	background-color: #40cbb4;
 	color: #ffffff;
@@ -62,7 +65,7 @@
 	display: block;
 	font-size: 20px;
 	line-height: 36px;
-	color: #888888;
+	color: rgb(72, 72, 72);
 	font-weight: 400;
 	max-width: 700px;
 	margin: 0 auto 25px;

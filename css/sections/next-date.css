@@ -8,8 +8,28 @@
 
 .next-date-section{
 	position: relative;
-	padding: 110px 0 80px;
+	padding: 0 0 80px;
 	overflow: hidden;
+}
+.next-date-section img.img-background{
+	width: 15%;
+	position:absolute; 
+}
+
+@media (max-width:768px) {
+	.next-date-section img.img-background{
+		width: 35%;
+	}
+}
+
+.next-date-section img.img-background:nth-child(1){
+	top: 0;
+	left: 0;
+}
+
+.next-date-section img.img-background:nth-child(2){
+	bottom: 0;
+	right: 0;
 }
 
 .next-date-section.alternate{
@@ -142,7 +162,7 @@
 	display: inline-block;
 	font-size: 12px;
 	line-height: 20px;
-	color: var(--white-link);
+	color: #000;
 	padding: 4px 15px;
 	background-color: var(--green-light);
 	border-radius: 10px;
@@ -156,8 +176,8 @@
 
 .next-date-block .btn-box a:hover{
 	background:none;
-	color:var(--green-dark);
-	border-color:var(--green-dark);
+	color:var(--green-light);
+	border-color:var(--green-light);
 }
 
 .next-date-section .icon-circle-blue{

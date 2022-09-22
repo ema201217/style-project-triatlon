@@ -10,24 +10,10 @@
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 120px 0 140px;
+	padding: 80px 0 80px;
 	background-attachment:fixed;
 }
 
-.paradise-section:before{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background: rgb(247,0,104);
-	background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
-	background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 100%);
-	background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
-	opacity: .70;
-	content: "";
-}
 
 .paradise-section .content-box{
 	position: relative;
@@ -39,9 +25,8 @@
 	display: block;
 	font-size: 18px;
 	line-height: 26px;
-	color: #ffbc00;
+	color: var(--white-link);
 	font-weight: 500;
-	text-transform: uppercase;
 	margin-bottom: 15px;
 }
 
@@ -63,9 +48,16 @@
 	height: 100px;
 	width: 100px;
 	line-height: 100px;
-	background-color: #ffbc00;
+	color:#000;
+	background-color: var(--green-light);
 	padding-left: 0;
 	font-size: 50px;
+	transition: 1s;
+}
+.paradise-section .play-now:hover .icon{
+	color:var(--white);
+	background-color: rgb(105, 156, 30);
+	transition: 1s;
 }
 
 .play-now {

@@ -8,22 +8,15 @@
 
 .counter-section{
 	position: relative;
-	padding: 100px 0 50px;
+	width: 100%;
+	padding: 30px 0;
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size:150%;
+	background-color: #000;
+	background-image: url(../../images/background/contador-fondo.png); 
 }
 
-.counter-section:before{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-image: url(../images/icons/pattern-1.jpg);
-	content: "";
-	opacity: .10;
-}
 
 .counter-section .count-counter{
 	position: relative;
@@ -32,7 +25,7 @@
 .counter-section .counter-column{
 	position:relative;
 	text-align: center;
-	margin-bottom:50px;
+	margin-bottom: 5px;
 }
 
 .counter-section .count-box{
@@ -59,8 +52,8 @@
 	-o-transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	transition:all 600ms ease;
-	background-color: #222222;
 	box-shadow: 5px 10px 30px rgba(0,0,0,0.10);
+	object-fit: contain;
 }
 
 .counter-section .count-box:hover .icon{
@@ -72,10 +65,21 @@
 	display: block;
 	font-size:60px;
 	line-height: 1em;
-	color:#15212f;
+	color:var(--white-link);
 	text-shadow: 10px 10px 10px rgba(0,0,0,0.10);
 	font-weight:600;
 	margin-bottom: 10px;
+}
+
+
+@media (max-width:768px) {
+	.counter-section .counter-column {
+		padding: 0;
+	}
+
+	.counter-section .count-box .count-text{
+	font-size: 2rem;
+	}
 }
 
 .counter-section .count-box .counter-title{
@@ -87,7 +91,7 @@
 	color:#222222;
 }
 
-.counter-section .counter-column:nth-child(4n + 1) .count-box .icon{
+/* .counter-section .counter-column:nth-child(4n + 1) .count-box .icon{
 	background-color: #ffc20b;
 }
 
@@ -101,22 +105,22 @@
 
 .counter-section .counter-column:nth-child(4n + 4) .count-box .icon{
 	background-color: #e6275a;
-}
+} */
 
 .counter-section .counter-column:nth-child(4n + 1) .counter-title{
-	color: #ffc20b;
+	color: var(--green-light);
 }
 
 .counter-section .counter-column:nth-child(4n + 2) .counter-title{
-	color: #40cbb4;
+	color: var(--red);
 }
 
 .counter-section .counter-column:nth-child(4n + 3) .counter-title{
-	color: #4c35a9;
+	color: var(--blue-light);
 }
 
 .counter-section .counter-column:nth-child(4n + 4) .counter-title{
-	color: #e6275a;
+	color: var(--white);
 }
 
 .counter-section.style-two{

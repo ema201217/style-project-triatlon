@@ -42,7 +42,7 @@
 	text-align: center;
 	content: "";
 	opacity: 0;
-	background-color: #1d95d2;
+	background-color: var(--green-light);
 	-webkit-transform: scale(.5);
 	-moz-transform: scale(.5);
 	-ms-transform: scale(.5);
@@ -62,7 +62,7 @@
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
-	opacity: .9;
+	opacity: .7;
 	border-radius: 0px;
 }
 
@@ -78,7 +78,7 @@
 	display: block;
 	height: 58px;
 	width: 58px;
-	background-color: #ec167f;
+	background-color: #000;
 	color: #ffffff;
 	border-radius: 50%;
 	font-weight: 700;

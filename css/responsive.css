@@ -54,7 +54,7 @@
 	.main-header.fixed-header,
 	.main-header .main-box{
 		/* position: relative !important; */
-		background-color: #1e1f36;
+		background-color: var();
 	}
 
 	.main-header .main-box{

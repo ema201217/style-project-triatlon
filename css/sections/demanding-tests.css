@@ -1,3 +1,4 @@
+/* position: relative;left: 250px;transform: scale(1.3) translate(-15%,-5%) !important;" */
 /***
 
 ====================================================================
@@ -6,163 +7,132 @@
 
 ***/
 
-.demanding-tests-section{
+.demanding-tests-section {
 	position: relative;
-	padding: 120px 0 70px;
+	padding: 0;
+	background-color: var(--green-light);
 }
 
-.demanding-tests-section .content-column{
+.demanding-tests-section .content-column {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 
-.demanding-tests-section .content-column .inner-column{
+.demanding-tests-section .content-column .inner-column {
 	position: relative;
-	padding-right: 80px;
+	padding-right: 0;
 }
 
-.demanding-tests-section .content-column .sec-title{
+@media (min-width:768px) {
+
+	.demanding-tests-section .image-column {
+		position: relative;
+		left: 250px;
+		transform: scale(1.3) translate(-15%, -5%) !important;
+	}
+
+}
+
+
+ @media (max-width:768px) {
+	.demanding-tests-section .content-column .sec-title h2 {
+		font-size: 40px !important;
+	}
+} 
+
+.demanding-tests-section .content-column .sec-title {
 	position: relative;
 	margin-bottom: 20px;
 }
 
-.demanding-tests-section .content-column .sec-title .text{
+.demanding-tests-section .content-column .sec-title .text {
 	margin-top: 20px;
 }
 
-.demanding-tests-section .content-column .sec-title h2{
-	font-size: 40px;
+.demanding-tests-section .content-column .sec-title h2 {
+	font-size: 60px;
 }
 
-.demanding-tests-section .content-column .list-style-one{
+.demanding-tests-section .content-column .list-style-one {
 	margin-bottom: 30px;
 }
 
-.demanding-tests-section .content-column .btn-box{
+.demanding-tests-section .content-column .btn-box {
 	position: relative;
 }
 
-.demanding-tests-section .content-column .btn-box a{
+.demanding-tests-section .content-column .btn-box a {
 	padding: 15px 30px;
 	line-height: 20px;
 	font-weight: 600;
 	font-size: 15px;
 }
 
-.demanding-tests-section .image-column{
-	position: relative;
-	margin-bottom: 50px;
-}
-
-.demanding-tests-section .image-column .image-box{
-	position: relative;
-	padding-left: 80px;
-}
-
-.demanding-tests-section .image-column .image-box img{
-	position: relative;
-	z-index: 1;
-	border-radius: 50%;
-	border: 15px solid #ffffff;
-	box-shadow: 0 0 20px rgba(0,0,0,0.10);
-}
-
-.demanding-tests-section .image-column .image{
+.demanding-tests-section .image-column {
 	position: relative;
 	margin-bottom: 0;
 }
 
-.demanding-tests-section .image-column .image:before{
-    position: absolute;
-    right: -10%;
-    top: -10%;
-    height: 120%;
-    width: 120%;
-    background-image: url(../images/icons/shape-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    -webkit-animation: dizzling 10s infinite;
-    -moz-animation: dizzling 10s infinite;
-    -ms-animation: dizzling 10s infinite;
-    -o-animation: dizzling 10s infinite;
-    animation: dizzling 10s infinite;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-    content: "";
+.demanding-tests-section .image-column .image-box {
+	position: relative;
+	padding-left: 80px;
 }
 
-@keyframes dizzling{
-	0%{
-		-webkit-transform: rotate(0);
-		-moz-transform: rotate(0);
-		-ms-transform: rotate(0);
-		-o-transform: rotate(0);
-		transform: rotate(0);
-	}
-	50%{
-		-webkit-transform: rotate(5deg);
-		-moz-transform: rotate(5deg);
-		-ms-transform: rotate(5deg);
-		-o-transform: rotate(5deg);
-		transform: rotate(5deg);
-	}
-	100%{
-		-webkit-transform: rotate(0);
-		-moz-transform: rotate(0);
-		-ms-transform: rotate(0);
-		-o-transform: rotate(0);
-		transform: rotate(0);
-	}
+.demanding-tests-section .image-column .image-box img {
+	position: relative;
+	z-index: 1;
+	height: 100%;
 }
 
-.icon-shape-1{
+.demanding-tests-section .image-column .image {
+	position: relative;
+	margin-bottom: 0;
+}
+
+.icon-shape-1 {
 	width: 484px;
 	height: 225px;
 	background-image: url(../images/icons/shape-1.png);
 }
 
-.icon-shape-2{
+.icon-shape-2 {
 	width: 325px;
 	height: 280px;
 	background-image: url(../images/icons/shape-2.png);
 }
 
-.icon-line-1{
+.icon-line-1 {
 	width: 128px;
 	height: 128px;
 	background-image: url(../images/icons/icon-line-1.png);
 }
 
-.icon-dots{
+.icon-dots {
 	width: 72px;
 	height: 60px;
 	background-image: url(../images/icons/icon-dots.png);
 }
 
-.icon-dots-3{
+.icon-dots-3 {
 	width: 204px;
 	height: 114px;
 	background-image: url(../images/icons/icon-dots-3.png);
 }
 
-.icon-circle-1{
+.icon-circle-1 {
 	width: 500px;
 	height: 500px;
 	background-image: url(../images/icons/icon-circle-1.png);
 	background-size: 100%;
 }
 
-.icon-circle-blue{
+.icon-circle-blue {
 	width: 300px;
 	height: 300px;
 	background-image: url(../images/icons/circle-blue.png);
 }
 
-.demanding-tests-section .icon-circle-blue{
+.demanding-tests-section .icon-circle-blue {
 	right: -150px;
 	bottom: -150px;
 	opacity: .70;
@@ -173,12 +143,12 @@
 	animation: fa-spin 30s infinite;
 }
 
-.demanding-tests-section .icon-dots{
+.demanding-tests-section .icon-dots {
 	left: 50%;
 	top: 30%;
 }
 
-.demanding-tests-section .icon-circle-1{
+.demanding-tests-section .icon-circle-1 {
 	left: -200px;
 	top: -200px;
 	opacity: .05;
