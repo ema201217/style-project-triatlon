@@ -374,23 +374,6 @@
 		});
 	}
 
-	//Contact Form Validation
-	if($('#contact-form').length){
-		$('#contact-form').validate({
-			rules: {
-				name: {
-					required: true
-				},
-				email: {
-					required: true,
-					email: true
-				},
-				message: {
-					required: true
-				}
-			}
-		});
-	}
 	
 	// Scroll to a Specific Div
 	if($('.scroll-to-target').length){
@@ -410,7 +393,7 @@
 		var wow = new WOW(
 		  {
 			boxClass:     'wow',      // animated element css class (default is wow)
-			animateClass: 'animated', // animation css class (default is animated)
+			animateClass: 'animated', /* animation css class (default is animated) */
 			offset:       0,          // distance to the element when triggering the animation (default is 0)
 			mobile:       true,       // trigger animations on mobile devices (default is true)
 			live:         true       // act on asynchronously loaded content (default is true)
@@ -437,3 +420,4 @@
 	});	
 
 })(window.jQuery);
+var a = "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"

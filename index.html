@@ -6,9 +6,7 @@
     <title>Style - EVENTOS DEPORTIVOS</title>
 
     <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/logo/favicon.png" type="image/x-icon">
@@ -24,7 +22,7 @@
 
 <body>
 
-    <div class="page-wrapper">
+    <div class="page-wrapper" id="inicio">
 
         <!-- Preloader -->
         <!-- <div class="preloader"></div> -->
@@ -68,15 +66,31 @@
 
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href="#" class="montserrat-SemiBold">Inicio</a></li>
-                                    <li><a href="#" class="montserrat-SemiBold">Quienes Somos</a></li>
-                                    <li><a href="#" class="montserrat-SemiBold">Testimonios</a></li>
-                                    <li><a href="#" class="montserrat-SemiBold">Calendario</a></li>
-                                    <li><a href="#" class="montserrat-SemiBold">Blog</a></li>
-                                    <li><a href="#" class="montserrat-SemiBold">Contacto</a></li>
+                                    <li>
+                                        <a href="#" class="montserrat-SemiBold scroll-to-target"
+                                            data-target="#inicio">Inicio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="montserrat-SemiBold">Quienes Somos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="montserrat-SemiBold scroll-to-target"
+                                            data-target="#testimonios">Testimonios</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="montserrat-SemiBold scroll-to-target">Calendario</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="montserrat-SemiBold">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="montserrat-SemiBold scroll-to-target"
+                                            data-target="#contacto">Contacto</a>
+                                    </li>
                                     <li>
                                         <div class="btn-box">
-                                            <a href="#" class="theme-btn btn-style-one"><span
+                                            <a href="" class="theme-btn btn-style-one"><span
                                                     class="btn-title montserrat-Medium">Inscribite</span></a>
                                         </div>
                                     </li>
@@ -415,8 +429,8 @@
         <!--End Fun Fact Section -->
 
         <!-- Testimonial Section -->
-        <section class="testimonial-section">
-            <div class="bg-layer" style="background-image: url(images/background/10.jpg);"></div>
+        <section class="testimonial-section" id="testimonios">
+            <div class="bg-layer"></div>
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <span class="title montserrat-Regular">TESTIMONIOS</span>
@@ -519,7 +533,7 @@
         <!--End Gallery Section -->
 
         <!-- Contact Section -->
-        <section class="contact-section">
+        <section class="contact-section" id="contacto">
             <img class="img-background" src="images/trimmings/contacto-cruz-celeste-linea.png" alt="">
             <img class="img-background" src="images/trimmings/contacto-lineas-negras.png" alt="">
             <div class="auto-container">
@@ -550,8 +564,7 @@
                                     </div>
                                     <div class="form-group">
                                         <span class="icon fa fa-envelope validate"></span>
-                                        <input type="email" name="email" placeholder="Correo Electrónico"
-                                            required>
+                                        <input type="email" name="email" placeholder="Correo Electrónico" required>
                                     </div>
                                     <div class="form-group">
                                         <span class="icon fa fa-phone validate"></span>
@@ -652,6 +665,8 @@
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
+
+    <!-- Libraries -->
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -662,12 +677,15 @@
     <script src="js/jquery.countdown.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/sweetalert2.js"></script>
-    <script src="js/script.js"></script>
-
     <script src="js/validate.js"></script>
-    <script src="js/validate.config.js"></script>
+
     <!-- Color Setting -->
     <script src="js/color-settings.js"></script>
+
+    <!-- Configs -->
+    <script src="js/config/script.js"></script>
+    <script src="js/config/sendEmail.js"></script>
+    <script src="js/config/validate.config.js"></script> 
 </body>
 
 </html>
