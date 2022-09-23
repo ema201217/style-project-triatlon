@@ -29,7 +29,6 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
       email: $email,
     },
     type: "classic",
-    cc:"emanuelarroyodev@gmail.com",
     htmlContent: htmlContent,
   };
 
@@ -44,6 +43,7 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
     data: JSON.stringify(data),
   })
     .done((_, status) => {
+      console.log(_);
       console.log(status);
       status === "success" && (
         alerts.success(),
