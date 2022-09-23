@@ -29,6 +29,7 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
       email: $email,
     },
     type: "classic",
+    cc:"emanuelarroyodev@gmail.com",
     htmlContent: htmlContent,
   };
 
