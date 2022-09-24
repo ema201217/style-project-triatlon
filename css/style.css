@@ -311,7 +311,7 @@ img {
 	background: linear-gradient(to bottom, var(--purple) 0%,var(--violet) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
-	color: var(--purple);
+	color: var(--red);
 }
 
 .sec-title h2 {
@@ -321,6 +321,13 @@ img {
 	line-height: 1.2em;
 	color: #1e1f36;
 	font-weight: 700;
+}
+
+@media (max-width:400px) {
+	.sec-title h2 {
+		font-size: 35px;
+	}
+	
 }
 
 .sec-title .text {

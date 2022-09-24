@@ -57,6 +57,10 @@
 	margin-bottom: 30px;
 }
 
+.demanding-tests-section .content-column .list-style-one li {
+	padding-left: 0;
+}
+
 .demanding-tests-section .content-column .btn-box {
 	position: relative;
 }
