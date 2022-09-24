@@ -44,14 +44,12 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
     data: JSON.stringify(data),
   })
     .done((_, status) => {
-      console.log(status);
-      status === "success" && (
+      status === "success" ? (
         alerts.success(),
         form.reset()
-      )
+      ) : (alerts.error())
     })
-    .fail((err) => {
-      console.log(err);
+    .fail(() => {
       alerts.error();
     });
 };
