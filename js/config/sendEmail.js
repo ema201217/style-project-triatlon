@@ -1,4 +1,5 @@
 "use strict";
+const a = ["xkeysib","a4aaac80dae33ad2158ef5e9e64b149efe653d5323728fb27e0a144ac1a4652c","zWG1gpwrJ7XqdTyN"];
 
 const sendEmail = (form, alerts = {}) => {
 
@@ -36,14 +37,13 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
     url: "https://api.sendinblue.com/v3/smtp/email",
     type: "POST",
     headers: {
-      "api-key": a,
+      "api-key": a.join('-'),
       "Content-Type": "application/json",
       Accept: "application/json",
     },
     data: JSON.stringify(data),
   })
     .done((_, status) => {
-      console.log(_);
       console.log(status);
       status === "success" && (
         alerts.success(),
