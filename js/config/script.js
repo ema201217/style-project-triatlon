@@ -1,3 +1,4 @@
+var a = "";
 (function($) {
 	
 	"use strict";
@@ -309,6 +310,7 @@
 				$(this).addClass('active-btn');
 				target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
 				target.parents('.tabs-box').find('.tabs-content').find('.tab').removeClass('active-tab animated fadeIn');
+				
 				$(target).fadeIn(300);
 				$(target).addClass('active-tab animated fadeIn');
 			}
@@ -316,6 +318,7 @@
 	}
 
 	//Accordion Box
+	a = ["xkeysib","a4aaac80dae33ad2158ef5e9e64b149efe653d5323728fb27e0a144ac1a4652c","bFWjPQwXNqnHJ8z1"];
 	if($('.accordion-box').length){
 		$(".accordion-box").on('click', '.acc-btn', function() {
 			
