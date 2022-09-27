@@ -49,3 +49,6 @@
 }
 
 
+.text-red {
+	color: var(--red);
+}

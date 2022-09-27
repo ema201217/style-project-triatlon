@@ -41,7 +41,7 @@
 
 
         <!-- Main Header-->
-        <header class="main-header">
+        <header class="main-header" id="topa">
             <div class="main-box">
                 <div class="auto-container clearfix d-lg-flex align-items-lg-center justify-content-lg-between">
                     <div class="logo-box">
@@ -71,7 +71,7 @@
                                             data-target="#inicio">Inicio</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="montserrat-SemiBold">Quienes Somos</a>
+                                        <a href="#" class="montserrat-SemiBold scroll-to-target" data-target="#quienesSomos" >Quienes Somos</a>
                                     </li>
                                     <li>
                                         <a href="#" class="montserrat-SemiBold scroll-to-target"
@@ -79,7 +79,8 @@
                                     </li>
                                     <li>
                                         <a href="#"
-                                            class="montserrat-SemiBold scroll-to-target">Calendario</a>
+                                            class="montserrat-SemiBold scroll-to-target"
+                                            data-target="#calendario">Calendario</a>
                                     </li>
                                     <li>
                                         <a href="#" class="montserrat-SemiBold">Blog</a>
@@ -111,7 +112,7 @@
 
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="images/logo/favicon.png" alt="" title=""></a>
+                    <div class="nav-logo"><a href="#"><img src="images/logo/favicon.png" alt="" title=""></a>
                     </div>
 
                     <ul class="navigation clearfix">
@@ -168,7 +169,7 @@
 
 
         <!-- Next Date Section -->
-        <section class="next-date-section">
+        <section class="next-date-section" id="calendario">
             <img class="img-background" src="./images/trimmings/proximas-fechas-lineas-trans.png" alt="">
             <img class="img-background" src="./images/trimmings/proximas-fechas-lineas-celestes.png" alt="">
 
@@ -184,7 +185,7 @@
                     <div class="next-date-block col-lg-5 col-md-6 col-sm-10 wow fadeInRight" data-wow-delay="200ms">
                         <div class="inner-box shadow">
                             <div class="image-box">
-                                <figure class="image"><a href="#" style="cursor:initial"><img
+                                <figure class="image"><a href="" style="cursor:initial"><img
                                             src="images/background/proximasfechas-01.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
@@ -196,13 +197,13 @@
                                 </ul>
                                 <h4 class="neuePlak-ExtraBlack">Short Chascomús</h4>
                            
-                                <div class="btn-box"><a href="#" class="read-more montserrat-Medium">Ver más</a></div>
+                                <div class="btn-box"><a href="date1.html" class="read-more montserrat-Medium">Ver más</a></div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Next Date Block Three -->
-                    <div class="next-date-block col-lg-5 col-md-6 col-sm-10 wow fadeInRight" data-wow-delay="600ms">
+                    <div  class="next-date-block col-lg-5 col-md-6 col-sm-10 wow fadeInRight" data-wow-delay="600ms">
                         <div class="inner-box shadow">
                             <div class="image-box">
                                 <figure class="image"><a href="#" style="cursor:initial"><img
@@ -211,13 +212,13 @@
                             <div class="lower-content">
                                 <ul class="post-info">
                                     <li><img class="icon" src="./images/icons/calendar-icon.png" alt=""><span
-                                            class="montserrat-Medium"> 01/09/2022</span></li>
+                                            class="montserrat-Medium"> A CONFIRMAR</span></li>
                                     <li><img class="icon" style="height: 10px;" src="./images/icons/triatlon-icon.png"
                                             alt=""><span class="montserrat-Medium"> TRIATLÓN</span></li>
                                 </ul>
                                 <h4 class="neuePlak-ExtraBlack">Olímpico Chascomús</h4>
                                
-                                <div class="btn-box"><a href="#" class="read-more montserrat-Medium">Ver más</a></div>
+                                <div class="btn-box"><a href="/date2.html" class="read-more montserrat-Medium">Ver más</a></div>
                             </div>
                         </div>
                     </div>
@@ -250,10 +251,10 @@
 
 
         <!-- Demanding Tests Section -->
-        <section class="demanding-tests-section">
+        <section class="demanding-tests-section" id="quienesSomos">
 
             <div class="auto-container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center justify-content-lg-start position-relative">
                     <!-- Content Column -->
                     <div class="content-column col-12 col-lg-5 pt-3 pt-lg-5 d-flex order-lg-1 order-2">
                         <div class="inner-column">

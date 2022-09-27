@@ -13,7 +13,7 @@ var a = "";
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
-		if($('.main-header').length){
+		if($('.main-header').length && !/date/.test(location.href)){
 			var windowpos = $(window).scrollTop();
 			var siteHeader = $('.main-header');
 			var scrollLink = $('.scroll-to-top');

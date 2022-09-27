@@ -26,9 +26,11 @@
 @media (min-width:992px) {
 
 	.demanding-tests-section .image-column {
-		position: relative;
-		left: 250px;
-		transform: scale(1.3) translate(-15%, -10%) !important;
+		position: absolute !important;
+    right: 0;
+    bottom: 0 !important;
+    transform: scale(1.3) !important;
+    height: fit-content;
 	}
 
 }

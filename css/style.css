@@ -32,6 +32,7 @@
 @import url('./sections/testimonials.css');
 @import url('./sections/gallery.css');
 @import url('./sections/contact.css');
+@import url('./sections/date.css');
 @import url('./sections/footer.css');
 
 
@@ -439,6 +440,49 @@ img {
 	-ms-transform-origin: bottom left;
 	transform-origin: bottom left;
 }
+
+
+/* style outline */
+
+.btn-style-one.outline-style{
+	color: var(--green-light);
+	background-color: transparent;
+	box-shadow: inset 1px 1px 2px var(--green-light),inset -1px -1px 2px var(--green-light);
+}
+
+.btn-style-one.outline-style:hover {
+	color: #000;
+}
+
+.btn-style-one.outline-style:before {
+	background-color: var(--green-light);
+}
+
+/* DISABLED */
+.btn-style-one.outline-style.disabled{
+	cursor:initial;
+	color: var(--gray-light);
+	background-color: transparent;
+	box-shadow: inset 1px 1px 2px var(--gray-light),inset -1px -1px 2px var(--gray-light);
+}
+.btn-style-one.disabled *{
+	cursor:default;
+	animation: none;
+	transition: none;
+	color: var(--gray-light);
+}
+
+.btn-style-one.disabled:before {
+	background-color: transparent;
+}
+
+
+.btn-style-one.disabled{
+	color: #a0a0a0;
+	background-color:#d8d8d8
+}
+
+
 
 /* Button style two*/
 
