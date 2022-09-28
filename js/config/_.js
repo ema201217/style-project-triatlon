@@ -11,7 +11,7 @@ for (let i = 0; i < elementsForm.length - 1; i++) {
   const $email = $(elementsForm[1]).val();
   const $phone = $(elementsForm[2]).val();
   const $message = $(elementsForm[3]).val();
-  const emailTo = "style.triatlon@gmail.com";
+  const emailTo = "styleeventosdeportivos@gmail.com";
   const htmlContent = `Nombre completo: <strong>${$fullname}</strong>
                         <br>
                         Email: <strong>${$email}</strong>
