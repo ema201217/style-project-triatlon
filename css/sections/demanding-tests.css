@@ -25,13 +25,12 @@
 
 @media (min-width:992px) {
 
-	.demanding-tests-section .image-column {
+/* 	.demanding-tests-section .image-column {
 		position: absolute !important;
     right: 0;
     bottom: 0 !important;
-    transform: scale(1.2) !important;
     height: fit-content;
-	}
+	} */
 
 }
 
