@@ -52,3 +52,7 @@
 .text-red {
 	color: var(--red);
 }
+
+.text-underline {
+	text-decoration: underline
+}
